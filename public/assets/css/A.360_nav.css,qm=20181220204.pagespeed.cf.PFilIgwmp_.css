@@ -1,0 +1,578 @@
+#header-2013 {
+  height: 60px;
+  padding: 15px 0px;
+}
+.w {
+  width: 1210px;
+  margin: 0px auto;
+}
+.root61 .w {
+  width: 1210px;
+}
+#logo-2013 {
+  float: left;
+  width: 300px;
+  margin-top: -10px;
+}
+.ld {
+  position: relative;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+#logo-2013 a:link b,
+#logo-2013 a:visited b {
+  top: 12px;
+  left: 168px;
+  width: 100px;
+  height: 38px;
+  cursor: pointer;
+}
+#logo-2013 a b {
+  display: none;
+}
+.ld s,
+.ld b,
+.ld .block {
+  position: absolute;
+  overflow: hidden;
+}
+a img {
+  border: 0px none;
+}
+img {
+  vertical-align: middle;
+}
+.root61 #search-2013 {
+  padding-right: 126px;
+}
+.root61 #kefu-2013 {
+}
+#search-2013 {
+  float: left;
+  width: 330px;
+  padding: 4px 86px 0px 0px;
+}
+.root61 #search-2013 .i-search {
+  width: 494px;
+}
+#search-2013 .i-search {
+  z-index: 11;
+  width: 304px;
+  height: 40px;
+  margin-bottom: 3px;
+  border: 1px solid #e4393c;
+}
+.ld {
+  position: relative;
+}
+.root61 #search-2013 #shelper {
+  width: 418px;
+}
+#search-2013 #shelper {
+  overflow: hidden;
+  position: absolute;
+  top: 32px;
+  left: -3px;
+  width: 308px;
+  border: 1px solid #e4393c;
+  background: none repeat scroll 0% 0% #fff;
+  box-shadow: 0px 0px 5px #999;
+}
+.hide {
+  display: none;
+}
+ol,
+ul {
+  list-style: none outside none;
+}
+#search-2013 .form {
+  height: 40px;
+  overflow: hidden;
+}
+.root61 #search-2013 .text {
+  width: 396px;
+}
+#search-2013 .text,
+#search-2013 .button {
+}
+#search-2013 .text {
+  width: 216px;
+  height: 40px;
+  padding: 5px;
+  background-position: 0px -360px;
+  background-color: #fff;
+  background-repeat: repeat-x;
+  line-height: 20px;
+  color: #999;
+  font-family: arial, "宋体";
+  font-size: 14px;
+}
+#search-2013 input {
+  margin: 0px;
+  padding: 0px;
+  height: 30px;
+  border: 0px none;
+}
+.form label,
+.form input,
+.form select,
+.form textarea,
+.form button,
+.form .label {
+  float: left;
+  font-size: 12px;
+}
+#search-2013 .text,
+#search-2013 .button {
+}
+#search-2013 .button {
+  width: 88px;
+  background: none repeat scroll 0% 0% #e4393c;
+  font-size: 16px;
+  font-weight: 700;
+  height: 40px;
+  color: #fff;
+}
+#search-2013 input {
+  margin: 0px;
+  padding: 0px;
+  height: 40px;
+  border: 0px none;
+}
+.form label,
+.form input,
+.form select,
+.form textarea,
+.form button,
+.form .label {
+  float: left;
+  font-size: 12px;
+}
+.btn-img,
+.button {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  border: 0px none;
+  text-align: center;
+  cursor: pointer;
+}
+#hotwords {
+  height: 18px;
+  color: #999;
+  overflow: hidden;
+}
+#hotwords span,
+#hotwords strong {
+  float: left;
+  font-weight: 400;
+}
+#hotwords a:link,
+#hotwords a:visited {
+  float: left;
+  margin-right: 10px;
+  color: #999;
+}
+#my360buy-2013 {
+  float: left;
+  position: relative;
+  z-index: 9;
+  width: 106px;
+  height: 30px;
+  margin-top: 12px;
+}
+#my360buy-2013 dt {
+  position: absolute;
+  z-index: 1;
+  width: 62px;
+  height: 30px;
+  padding: 0px 24px 0px 30px;
+  border: 1px solid #efefef;
+  background-position: -116px -24px;
+  background-color: #f7f7f7;
+  text-align: center;
+  line-height: 27px;
+  cursor: pointer;
+}
+#my360buy-2013 dt,
+#my360buy-2013 dl.hover dt {
+  background-image: url(../images/x20130330A_1.png.pagespeed.ic.gq7s6PYnH6.png);
+  background-repeat: no-repeat;
+}
+#my360buy-2013 dd {
+  display: none;
+  position: absolute;
+  top: 32px;
+  right: 0px;
+  width: 310px;
+  border: 1px solid #e3e3e3;
+  background: none repeat scroll 0% 0% #fff;
+}
+#my360buy-2013 .loading-style1 {
+  margin: 10px auto;
+}
+.loading-style1 {
+  width: 126px;
+  margin: 0px auto;
+  text-align: center;
+  color: #999;
+}
+.loading-style1 b {
+  display: block;
+  width: 43px;
+  height: 24px;
+  margin: 0px auto 5px;
+}
+.loading-style1 b,
+.loading-style2 {
+  background: url(../images/loading-jd.gif.pagespeed.ce.wGUF6OLubo.gif)
+    no-repeat scroll 50% 50% transparent;
+}
+#settleup-2013 {
+  float: right;
+  position: relative;
+  z-index: 9;
+  width: 106px;
+  height: 30px;
+  margin-top: 12px;
+}
+#settleup-2013 dt {
+  position: absolute;
+  z-index: 3;
+  width: 74px;
+  height: 30px;
+  padding: 0px 20px 0px 30px;
+  border: 1px solid #efefef;
+  background-position: -115px -84px;
+  background-color: #f7f7f7;
+  line-height: 27px;
+  cursor: pointer;
+  text-align: center;
+}
+#settleup-2013 dt,
+#settleup-2013 dl.hover dt,
+#settleup-2013 .nogoods b {
+  background-image: url(../images/x20130330A_1.png.pagespeed.ic.gq7s6PYnH6.png);
+  background-repeat: no-repeat;
+}
+#settleup-2013 dd {
+  display: none;
+  position: absolute;
+  top: 32px;
+  right: 0px;
+  width: 350px;
+}
+#settleup-2013 .prompt {
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  background: none repeat scroll 0% 0% #fff;
+}
+.loading-style1 {
+  width: 126px;
+  margin: 0px auto;
+  text-align: center;
+  color: #999;
+}
+#settleup-2013 dt .shopping span {
+  float: left;
+  display: block;
+  height: 20px;
+  padding-right: 6px;
+  background-image: url(../images/x20130330A_1.png.pagespeed.ic.gq7s6PYnH6.png);
+  background-position: 100% -250px;
+}
+#settleup-2013 dt .shopping {
+  position: absolute;
+  top: -13px;
+  left: 20px;
+  background-image: url(../images/x20130330A_1.png.pagespeed.ic.gq7s6PYnH6.png);
+  background-position: -133px -279px;
+  padding-left: 6px;
+  color: #fff;
+}
+.ld s,
+.ld b,
+.ld .block {
+  position: absolute;
+  overflow: hidden;
+}
+#settleup-2013 dt {
+  cursor: pointer;
+  text-align: center;
+}
+#shortcut-2013 {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  line-height: 30px;
+}
+#shortcut-2013,
+#shortcut-2013 .w {
+  height: 30px;
+  background: none repeat scroll 0% 0% #f7f7f7;
+}
+#shortcut-2013 .fl {
+  overflow: visible;
+}
+.lh {
+  overflow: hidden;
+}
+.fl {
+  float: left;
+}
+#shortcut-2013 .fl .fore1 {
+  padding-left: 16px;
+  z-index: 13;
+}
+#shortcut-2013 li {
+  height: 30px;
+  padding: 0px 8px 0px 8px;
+}
+.lh li,
+.lh dl,
+.lh .item {
+  float: left;
+}
+.ld {
+  position: relative;
+}
+#shortcut-2013 .fr {
+  height: 30px;
+  overflow: visible;
+}
+.lh {
+  overflow: hidden;
+}
+.fr {
+  float: right;
+}
+#shortcut-2013 li {
+  height: 30px;
+  padding: 0px 11px 0px 12px;
+}
+#shortcut-2013 #jd-vip {
+  padding-left: 40px;
+  position: relative;
+}
+#shortcut-2013 .menu {
+  z-index: 10;
+}
+#shortcut-2013 .fr b {
+  top: 13px;
+  right: 8px;
+  width: 7px;
+  height: 4px;
+  background-position: -95px -55px;
+}
+#shortcut-2013 .fl b,
+#shortcut-2013 .fr b {
+  background-image: url(../images/x20130330A_1.png.pagespeed.ic.gq7s6PYnH6.png);
+  background-repeat: no-repeat;
+}
+#shortcut-2013 b {
+  transition: transform 0.2s ease-in 0s;
+}
+.ld s,
+.ld b,
+.ld .block {
+  position: absolute;
+  overflow: hidden;
+}
+#shortcut-2013 .dd {
+  display: none;
+}
+#shortcut-2013 li s {
+  top: 9px;
+  left: 0px;
+  width: 0px;
+  height: 12px;
+  border-left: 1px solid #ddd;
+  overflow: hidden;
+}
+.ld s,
+.ld b,
+.ld .block {
+  position: absolute;
+  overflow: hidden;
+}
+#shortcut-2013 #jd-vip img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.nav {
+  width: 100%;
+  background: url(../images/xxtynav.gif.pagespeed.ic.p_cHKcRhsk.gif.pagespeed.ic.p_cHKcRhsk.gif) repeat-x
+    scroll 0px 0px transparent;
+  font-family: STHeiti, "Microsoft YaHei", Simsun;
+}
+.nav_list {
+  width: 1200px;
+  height: 41px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+ul,
+li {
+  list-style: none outside none;
+}
+#J_nav .nav_sub {
+  top: 175px;
+}
+#J_navSub_2 {
+  width: 630px;
+}
+.nav_sub {
+  max-width: 940px;
+  display: none;
+  position: absolute;
+  width: 960px;
+  z-index: 10001;
+  top: 125px;
+  left: 0px;
+  border-right: 2px solid #c00;
+  border-width: 0px 2px 2px;
+  border-style: none solid solid;
+  border-color: -moz-use-text-color #c00 #c00;
+  -moz-border-top-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  border-image: none;
+  background: none repeat scroll 0% 0% #fcfcfc;
+}
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+s,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0px;
+  padding: 0px;
+  border: 0px none;
+  outline: 0px none;
+}
+.nav_list .nav_item {
+  float: left;
+  font-size: 16px;
+  background: url(../images/xxtynav.gif.pagespeed.ic.p_cHKcRhsk.gif.pagespeed.ic.p_cHKcRhsk.gif) no-repeat
+    scroll right -257px;
+  padding: 0px 8px 0px 6px;
+  border: 0px none;
+  line-height: 1.5em;
+}
+.nav_list .nav_item .curr a,
+.nav_list .nav_item a:hover {
+  background: none repeat scroll 0% 0% #fff;
+  border: 1px solid #fff;
+  border-radius: 2px 2px 0px 0px;
+  color: #c00;
+}
+.nav p,
+.nav li {
+  font-family: STHeiti, "Microsoft YaHei", Simsun;
+}
+ul,
+li {
+  list-style: none outside none;
+}
+.nav_list .nav_item a {
+  display: block;
+  padding: 6px 8px 9px;
+  margin-top: 6px;
+  color: #fff;
+  font-weight: bold;
+}
+.nav a,
+.nav a:link {
+  text-decoration: none;
+}
+.nav_list .selected a,
+.nav_list .on a {
+  color: #c00;
+  background: none repeat scroll 0% 0% #fff;
+  border: 1px solid #fff;
+  border-radius: 2px 2px 0px 0px;
+  padding: 6px 13px 9px;
+}
+.J_dev {
+  position: absolute;
+  right: -10px;
+}
+.J_dev a,
+.J_dev a:hover {
+  display: block;
+  padding: 6px 14px 9px;
+  margin-top: 6px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.5em;
+  text-decoration: none;
+}

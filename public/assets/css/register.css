@@ -1,0 +1,41 @@
+.two_dimensional_code {
+    z-index: 901;
+    display: block;
+    position: absolute;
+    top: 26px;
+    left: 80px;
+    width: 160px;
+    height: 180px;
+    background: #ff0;
+    display: none;
+}
+.numcoad_parents {
+    position: relative;
+}
+.nubCoad {
+    position: absolute;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 2px;
+    width: 12px;
+    line-height: 10px;
+    text-align: center;
+    background-color: #e4393c;
+    color: #fff;
+    font-size: 8px;
+    border-radius: 2px;
+    bottom: 14px;
+    left: 20px;
+}
+.banner_close {
+    position: absolute;
+    padding: 0px;
+    float: right;
+    right: 5px;
+    top: 80px;
+    cursor: pointer;
+}
+.prompt {
+    color: red;
+}
