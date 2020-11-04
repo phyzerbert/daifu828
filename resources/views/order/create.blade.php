@@ -79,7 +79,7 @@
             </div>
             <div class="modBox" style="float: left;">
                 <div id="category_tree" style="float: left;">
-                    <a href="/card/006/192.html">
+                    <a href="javascript:;">
                         <dl class="dl_left_8_2 border_top_8-2">
                             <dt>
                                 <img
@@ -90,7 +90,7 @@
                             <dd>支付宝充值专区</dd>
                         </dl>
                     </a>
-                    <a href="/card/001/1680.html">
+                    <a href="javascript:;">
                         <dl class="dl_left_8_2 border_right_8-2">
                             <dt>
                                 <img
@@ -102,7 +102,7 @@
                         </dl>
                     </a>
 
-                    <a href="/card/001/402.html">
+                    <a href="javascript:;">
                         <dl class="dl_left_8_2 border_right_8-2 border_top_8-2">
                             <dt>
                                 <img
@@ -114,7 +114,7 @@
                         </dl>
                     </a>
 
-                    <a href="/card.php?classid=008">
+                    <a href="javascript:;">
                         <dl class="dl_left_8_2">
                             <dt>
                                 <img
@@ -125,7 +125,7 @@
                             <dd>直播平台充值</dd>
                         </dl>
                     </a>
-                    <a href="/card.php?classid=004">
+                    <a href="javascript:;">
                         <dl class="dl_left_8_2 border_right_8-2">
                             <dt>
                                 <img
@@ -136,7 +136,7 @@
                             <dd>网盘云盘专区</dd>
                         </dl>
                     </a>
-                    <a href="/card/001/17.html">
+                    <a href="javascript:;">
                         <dl class="dl_left_8_2">
                             <dt>
                                 <img
@@ -147,7 +147,7 @@
                             <dd>Q币充值专区</dd>
                         </dl>
                     </a>
-                    <a href="/card/005/133.html">
+                    <a href="javascript:;">
                         <dl class="dl_left_8_2 border_right_8-2">
                             <dt>
                                 <img
@@ -158,14 +158,14 @@
                             <dd>Gash点卡</dd>
                         </dl>
                     </a>
-                    <a href="/card/001/4.html">
+                    <a href="javascript:;">
                         <dl class="dl_left_8_2">
                             <dt><img src="{{asset('assets/images/right/xspfl_wmsj.png.pagespeed.ic.lxZH662J-C.png')}}" alt="完美点卡" pagespeed_url_hash="3693093512" /></dt>
                             <dd>完美世界专区</dd>
                         </dl>
                     </a>
 
-                    <a href="/card/005/131.html">
+                    <a href="javascript:;">
                         <dl class="dl_left_8_2 border_right_8-2 border_right_11-8">
                             <dt>
                                 <img
@@ -176,7 +176,7 @@
                             <dd>台服Mycard充值</dd>
                         </dl>
                     </a>
-                    <a href="/daichong.php?cardid=425&amp;carddetailid=1240">
+                    <a href="javascript:;">
                         <dl class="dl_left_8_2 border_right_8-2 border_right_11-8">
                             <dt>
                                 <img
@@ -188,7 +188,7 @@
                         </dl>
                     </a>
                     <div style="clear: both;"></div>
-                    <a href="/card.php?classid=001" class="gd_8-2">更多</a>
+                    <a href="javascript:;" class="gd_8-2">更多</a>
                     <div style="clear: both;"></div>
                 </div>
             </div>
@@ -225,14 +225,14 @@
                             @csrf
                             <div class="productList">
                                 <label class="seltf">商品面值：</label>
-                                <input type="hidden" name="price" value="50">
+                                <input type="hidden" name="price" id="form_price" value="50">
                                 <ul id="day0">
-                                    <li class="curr">50元<s></s></li>
-                                    <li class="">100元<s></s></li>
-                                    <li class="">200元<s></s></li>
-                                    <li class="">500元<s></s></li>
-                                    <li class="">1000元<s></s></li>
-                                    <li class="">2000元<s></s></li>
+                                    <li class="curr" data-value="50">50元<s></s></li>
+                                    <li class="" data-value="100">100元<s></s></li>
+                                    <li class="" data-value="200">200元<s></s></li>
+                                    <li class="" data-value="500">500元<s></s></li>
+                                    <li class="" data-value="1000">1000元<s></s></li>
+                                    <li class="" data-value="2000">2000元<s></s></li>
                                 </ul>
                             </div>
 
@@ -241,7 +241,7 @@
                                 <a class="quantity-decrease" id="quantityMinus" style="cursor: pointer;">
                                     <em id="minus">-</em>
                                 </a>
-                                <input class="quantity" size="4" value="1" id="num" name="num" onblur="modify();" type="text" />
+                                <input class="quantity" size="4" value="1" id="form_quantity" name="quantity" type="text" />
                                 <a class="quantity-increase" id="quantityPlus" style="cursor: pointer;">
                                     <em id="plus">+</em>
                                 </a>
@@ -259,12 +259,12 @@
                             </p>
                             <div id="typenew">
                                 <p>
-                                    <font color="red"><label class="seltf">代购账户：</label>&nbsp;
-                                    <input id="textvalue1" name="purchase_account" value="" size="50" class="selt selt360" /></font>
+                                    <font color="red"><label class="seltf">代购账户：</label>
+                                    <input id="textvalue1" name="purchase_account" value="" class="selt selt360" /></font>
                                 </p>
                             </div>
                             <label class="seltf">详细备注：</label>
-                            <textarea name="mem" rows="4" style="width: 360px; height: 50px; overflow-y: hidden;" class="selt"></textarea>
+                            <textarea name="remark" rows="4" style="width: 360px; height: 50px;" class="selt"></textarea>
                             
                             <li>
                                 <input type="image" src="{{asset('assets/images/xbnt_buy.gif.pagespeed.ic.cF5GmFqcPS.png')}}" name="submit" style="vertical-align: middle; cursor: pointer;" title="立即支付" />&nbsp;&nbsp;
@@ -350,4 +350,27 @@
     </div>
     <div class="clear"></div>
 </div>
+@endsection
+
+@section('scripts')
+<script src="{{asset('backend/js/jquery-3.3.1.min.js')}}"></script>
+<script>
+    $(document).ready(function () {
+        $("#day0 li").click(function () {
+            let price = $(this).data('value');
+            $(this).siblings().removeClass('curr');
+            $(this).addClass('curr');
+            $("#form_price").val(price);
+        });
+        $("#quantityPlus").click(function () {
+            let quantity = parseInt($("#form_quantity").val());
+            $("#form_quantity").val(quantity + 1);
+        });
+        $("#quantityMinus").click(function () {
+            let quantity = $("#form_quantity").val();
+            if(quantity == 1) return false;
+            $("#form_quantity").val(quantity - 1);
+        });
+    });
+</script>
 @endsection

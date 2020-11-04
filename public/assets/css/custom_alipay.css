@@ -604,6 +604,10 @@ address {
   text-align: center;
   height: 100%;
 }
+.quantity-increase:hover,
+.quantity-decrease:hover {
+  text-decoration: none !important;
+}
 .quantity {
   color: #333;
   border: solid #ddd;

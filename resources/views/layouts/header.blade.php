@@ -7,7 +7,7 @@
         <div class="i-search ld">
             <ul id="shelper" class="hide"></ul>
             <div class="form">
-                <input style="color: rgb(153, 153, 153);" class="text" accesskey="s" id="keyword" autocomplete="off" onkeydown="javascript:if(event.keyCode==13) mysearch();" type="text" />
+                <input style="color: rgb(153, 153, 153);padding-top:0;padding-bottom:0;" class="text" accesskey="s" id="keyword" autocomplete="off" onkeydown="javascript:if(event.keyCode==13) mysearch();" type="text" />
                 <input value="搜 索" class="button" onclick="mysearch();return false;" type="button" />
             </div>
         </div>

@@ -33,14 +33,37 @@
                         <td height="30" bgcolor="FFFBE7"><div align="center">订单状态</div></td>
                         <td height="30" bgcolor="FFFBE7"><div align="center">订单操作</div></td>
                     </tr>
-                    <tr>
+                    @foreach ($data as $item)
+                        <tr>
+                            {{-- <td height="30">{{ (($data->currentPage() - 1 ) * $data->perPage() ) + $loop->iteration }}</td> --}}
+                            <td height="30">{{ $loop->index + 1 }}</td>
+                            <td height="30">Product</td>
+                            <td height="30">{{$item->price * $item->quantity}} ({{$item->currency->name}})</td>
+                            <td height="30">{{date('Y-m-d', strtotime($item->created_at))}}</td>
+                            <td height="30">
+                                @if ($item->status == 0)
+                                    待定
+                                @elseif($item->status == 1)
+                                    拒绝
+                                @elseif($item->status == 2)
+                                    已批准
+                                @endif
+                            </td>
+                            <td height="30">
+                                @if ($item->status != 2)
+                                    <a href="{{route('order.destroy', $item->id)}}" onclick="return window.confirm('Are you sure?')">删除</a>
+                                @endif
+                            </td>
+                        </tr>
+                    @endforeach
+                    {{-- <tr>
                         <td height="90" colspan="6" bgcolor="#FFFFFF">
                             <div align="center">
                                 总共有0条记录 <span>1/0</span><span> 首页 </span><span> 上一页 </span><font color="red">1</font><a href="order.php?leftid=1&amp;leftidid=3&amp;page=0"> 下一页 </a>
                                 <a href="order.php?leftid=1&amp;leftidid=3&amp;page=0"> 尾页 </a>
                             </div>
                         </td>
-                    </tr>
+                    </tr> --}}
                 </tbody>
             </table>
             <div class="h15"></div>
